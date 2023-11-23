@@ -1,0 +1,1573 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ivt0x8 CODE 0 8 8 FA 1 2
+cinit CODE 0 410A 410A 68 1 2
+text0 CODE 0 2532 2532 C14 1 2
+text1 CODE 0 4404 4404 26 1 2
+text2 CODE 0 41D6 41D6 5C 1 2
+text3 CODE 0 3E10 3E10 B0 1 2
+text4 CODE 0 3D4C 3D4C C4 1 2
+text5 CODE 0 4026 4026 72 1 2
+text6 CODE 0 390A 390A 1B4 1 2
+text7 CODE 0 3C46 3C46 106 1 2
+text8 CODE 0 3146 3146 42A 1 2
+text9 CODE 0 3570 3570 39A 1 2
+text10 CODE 0 43D8 43D8 2C 1 2
+text11 CODE 0 44B2 44B2 6 1 2
+text12 CODE 0 3EC0 3EC0 7A 1 2
+text13 CODE 0 42CA 42CA 3E 1 2
+text14 CODE 0 4232 4232 54 1 2
+text15 CODE 0 43A8 43A8 30 1 2
+text16 CODE 0 44A2 44A2 8 1 2
+text17 CODE 0 44AA 44AA 8 1 2
+text18 CODE 0 4340 4340 34 1 2
+text19 CODE 0 3ABE 3ABE 188 1 2
+text20 CODE 0 4172 4172 64 1 2
+text21 CODE 0 3FB2 3FB2 74 1 2
+text22 CODE 0 4286 4286 44 1 2
+text23 CODE 0 4308 4308 38 1 2
+text24 CODE 0 4374 4374 34 1 2
+text25 CODE 0 4098 4098 72 1 2
+text26 CODE 0 446C 446C 1C 1 2
+text27 CODE 0 3F3C 3F3C 76 1 4
+text28 CODE 0 442C 442C 20 1 4
+text29 CODE 0 444C 444C 20 1 4
+text30 CODE 0 4498 4498 A 1 4
+idataCOMRAM CODE 0 44B8 44B8 4 1 1
+cstackCOMRAM COMRAM 1 501 501 57 1 1
+bssBANK5 BANK5 1 56D 56D C 1 1
+smallconst SMALLCONST 0 2500 2500 32 1 2
+idataBANK5 CODE 0 4488 4488 D 1 1
+dataBANK5 BANK5 1 560 560 D 1 1
+dataCOMRAM COMRAM 1 55C 55C 4 1 1
+bssCOMRAM COMRAM 1 558 558 4 1 1
+config CONFIG 4 300000 300000 A 1 1
+$C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+init CODE 0 102 102 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 A 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 579-24FF 1
+SFR 0-4FF 1
+SFR 2500-25FF 1
+BANK5 579-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 106-24FF 1
+CONST 3F3A-3F3B 1
+CONST 442A-442B 1
+CONST 4495-4497 1
+CONST 44BC-1FFFF 1
+IDLOC 200000-20003F 1
+SMALLCONST 3F3A-3F3B 1
+SMALLCONST 442A-442B 1
+SMALLCONST 4495-4497 1
+SMALLCONST 44BC-1FFFF 1
+CODE 4-7 1
+CODE 106-24FF 1
+CODE 3F3A-3F3B 1
+CODE 442A-442B 1
+CODE 4495-4497 1
+CODE 44BC-1FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-FFF 1
+BANK16 1000-10FF 1
+BANK17 1100-11FF 1
+BANK18 1200-12FF 1
+BANK19 1300-13FF 1
+BANK20 1400-14FF 1
+BANK21 1500-15FF 1
+BANK22 1600-16FF 1
+BANK23 1700-17FF 1
+BANK24 1800-18FF 1
+BANK25 1900-19FF 1
+BANK26 1A00-1AFF 1
+BANK27 1B00-1BFF 1
+BANK28 1C00-1CFF 1
+BANK29 1D00-1DFF 1
+BANK30 1E00-1EFF 1
+BANK31 1F00-1FFF 1
+BANK32 2000-20FF 1
+BANK33 2100-21FF 1
+BANK34 2200-22FF 1
+BANK35 2300-23FF 1
+BANK36 2400-24FF 1
+BIGRAM 579-24FF 1
+BIGSFR 0-4FF 1
+BIGSFR 2500-25FF 1
+CONFIG 30000A-300011 1
+EEDATA 380000-3803FF 1
+MEDIUMCONST 3F3A-3F3B 1
+MEDIUMCONST 442A-442B 1
+MEDIUMCONST 4495-4497 1
+MEDIUMCONST 44BC-FFFF 1
+MEDIUMCONST 12500-1FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\TF_MICRO_COMEDERO.X.production.o
+4498 text30 CODE >469:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4498 text30 CODE >471:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4498 text30 CODE >473:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+449A text30 CODE >474:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+44A0 text30 CODE >475:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+444C text29 CODE >457:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+444C text29 CODE >459:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+444C text29 CODE >460:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+444E text29 CODE >461:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4460 text29 CODE >462:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4464 text29 CODE >464:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4468 text29 CODE >466:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+446A text29 CODE >469:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+442C text28 CODE >444:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+442C text28 CODE >446:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+442C text28 CODE >447:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+442E text28 CODE >448:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4440 text28 CODE >449:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4444 text28 CODE >451:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4448 text28 CODE >453:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+444A text28 CODE >457:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F3C text27 CODE >138:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F3C text27 CODE >418:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F3C text27 CODE >419:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F3E text27 CODE >420:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F52 text27 CODE >421:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F56 text27 CODE >422:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F68 text27 CODE >423:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F6C text27 CODE >424:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F7E text27 CODE >425:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F82 text27 CODE >426:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F94 text27 CODE >427:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F98 text27 CODE >428:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3F9C text27 CODE >430:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3FA2 text27 CODE >434:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3FA8 text27 CODE >438:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3FAE text27 CODE >442:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3FB0 text27 CODE >444:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+446C text26 CODE >130:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+446E text26 CODE >132:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4472 text26 CODE >133:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4476 text26 CODE >134:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+447A text26 CODE >135:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+447C text26 CODE >136:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4484 text26 CODE >137:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4486 text26 CODE >138:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4098 text25 CODE >156:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4098 text25 CODE >159:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+409C text25 CODE >160:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+409E text25 CODE >161:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40A0 text25 CODE >162:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40A2 text25 CODE >163:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40AA text25 CODE >164:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40AE text25 CODE >165:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40B0 text25 CODE >166:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40B8 text25 CODE >167:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40BA text25 CODE >168:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40C2 text25 CODE >169:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40C4 text25 CODE >170:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40CA text25 CODE >171:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40CE text25 CODE >173:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40D0 text25 CODE >174:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40D8 text25 CODE >175:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40DC text25 CODE >176:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40DE text25 CODE >177:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40E6 text25 CODE >178:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40E8 text25 CODE >179:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40F0 text25 CODE >180:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+40F6 text25 CODE >171:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4108 text25 CODE >183:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4374 text24 CODE >92:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4376 text24 CODE >95:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4378 text24 CODE >96:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+437C text24 CODE >97:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4380 text24 CODE >98:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4388 text24 CODE >99:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+438A text24 CODE >100:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+438C text24 CODE >101:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+438E text24 CODE >102:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4394 text24 CODE >103:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+439A text24 CODE >104:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+43A0 text24 CODE >105:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+43A6 text24 CODE >106:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4308 text23 CODE >5:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+4308 text23 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+430C text23 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+4310 text23 CODE >9:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+4312 text23 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+4332 text23 CODE >11:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+433E text23 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\strlen.c
+4286 text22 CODE >81:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4286 text22 CODE >84:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4292 text22 CODE >85:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4292 text22 CODE >86:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+429A text22 CODE >88:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42B4 text22 CODE >89:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42C8 text22 CODE >90:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3FB2 text21 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FB2 text21 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FBA text21 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FCC text21 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FD0 text21 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FD4 text21 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FDA text21 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FDC text21 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FEA text21 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+3FF0 text21 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+4006 text21 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+400E text21 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+4010 text21 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+4016 text21 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+401C text21 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+401C text21 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+4024 text21 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwdiv.c
+4172 text20 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+4172 text20 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+4184 text20 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+4188 text20 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+418C text20 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+4192 text20 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+4194 text20 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41A2 text20 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41B8 text20 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41C0 text20 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41C6 text20 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41CC text20 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41CC text20 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+41D4 text20 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\lwmod.c
+3ABE text19 CODE >228:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3ABE text19 CODE >230:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3AD6 text19 CODE >231:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B02 text19 CODE >232:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B2E text19 CODE >233:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B5A text19 CODE >234:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B72 text19 CODE >235:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B76 text19 CODE >237:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B7E text19 CODE >238:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B82 text19 CODE >240:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B8A text19 CODE >241:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B92 text19 CODE >242:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B96 text19 CODE >244:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3B9E text19 CODE >245:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BA6 text19 CODE >246:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BAE text19 CODE >247:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BB2 text19 CODE >249:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BBA text19 CODE >250:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BC2 text19 CODE >251:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BCA text19 CODE >252:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BD2 text19 CODE >253:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BD6 text19 CODE >255:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BDE text19 CODE >256:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BE6 text19 CODE >257:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BEE text19 CODE >258:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BF6 text19 CODE >259:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3BFE text19 CODE >260:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C02 text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C0C text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C1A text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C22 text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C2A text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C32 text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C3A text19 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3C44 text19 CODE >262:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4340 text18 CODE >140:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4342 text18 CODE >143:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4344 text18 CODE >144:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4348 text18 CODE >145:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+434C text18 CODE >146:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4354 text18 CODE >147:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4356 text18 CODE >148:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4358 text18 CODE >149:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+435A text18 CODE >150:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4360 text18 CODE >151:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4366 text18 CODE >152:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+436C text18 CODE >153:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4372 text18 CODE >154:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44AA text17 CODE >108:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44AA text17 CODE >110:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44B0 text17 CODE >111:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44A2 text16 CODE >41:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44A2 text16 CODE >43:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44A8 text16 CODE >44:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+43A8 text15 CODE >66:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+43AA text15 CODE >68:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+43C0 text15 CODE >69:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+43D6 text15 CODE >70:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4232 text14 CODE >113:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4232 text14 CODE >115:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4234 text14 CODE >116:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4236 text14 CODE >117:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+423C text14 CODE >118:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+424C text14 CODE >119:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4252 text14 CODE >120:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+425A text14 CODE >121:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4260 text14 CODE >122:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4266 text14 CODE >123:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+426C text14 CODE >124:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4272 text14 CODE >125:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4278 text14 CODE >126:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+427E text14 CODE >127:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4284 text14 CODE >128:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42CA text13 CODE >196:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42CA text13 CODE >197:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42CE text13 CODE >198:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42D4 text13 CODE >199:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42E4 text13 CODE >200:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42E8 text13 CODE >201:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42F8 text13 CODE >202:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+42FC text13 CODE >203:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4300 text13 CODE >204:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+4306 text13 CODE >205:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EC0 text12 CODE >9:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EC2 text12 CODE >11:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3ED2 text12 CODE >13:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EDA text12 CODE >14:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EDE text12 CODE >15:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EF0 text12 CODE >17:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EF8 text12 CODE >18:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3EFC text12 CODE >19:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F0E text12 CODE >21:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F16 text12 CODE >22:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F1A text12 CODE >23:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F2C text12 CODE >25:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F38 text12 CODE >26:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+3F38 text12 CODE >27:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\LCD.c
+44B2 text11 CODE >20:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+44B2 text11 CODE >21:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+44B6 text11 CODE >23:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43D8 text10 CODE >5:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43DA text10 CODE >7:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43DC text10 CODE >8:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43E0 text10 CODE >9:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43E2 text10 CODE >10:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43E4 text10 CODE >11:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43EA text10 CODE >12:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43EE text10 CODE >13:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43F2 text10 CODE >14:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43F6 text10 CODE >15:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43FA text10 CODE >16:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+43FE text10 CODE >17:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+4402 text10 CODE >18:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\U1SERIAL.c
+3570 text9 CODE >11:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3570 text9 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3576 text9 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+357C text9 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+358A text9 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+358C text9 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+359C text9 CODE >35:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35AC text9 CODE >37:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35BC text9 CODE >40:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35BE text9 CODE >42:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35C2 text9 CODE >43:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35C6 text9 CODE >46:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35D6 text9 CODE >49:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35DC text9 CODE >50:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35E2 text9 CODE >51:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35F0 text9 CODE >52:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+35F2 text9 CODE >56:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3602 text9 CODE >58:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3612 text9 CODE >60:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3622 text9 CODE >63:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3624 text9 CODE >65:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3628 text9 CODE >66:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+362C text9 CODE >69:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+363C text9 CODE >75:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3652 text9 CODE >76:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3662 text9 CODE >77:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+366A text9 CODE >78:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+366E text9 CODE >79:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3682 text9 CODE >83:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3692 text9 CODE >84:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3692 text9 CODE >85:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36A6 text9 CODE >89:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36C0 text9 CODE >92:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36D0 text9 CODE >93:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36E0 text9 CODE >94:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36F0 text9 CODE >96:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36F4 text9 CODE >97:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+36F8 text9 CODE >100:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3708 text9 CODE >101:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3712 text9 CODE >102:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+371C text9 CODE >103:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+372A text9 CODE >104:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+372C text9 CODE >105:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+372C text9 CODE >106:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3736 text9 CODE >112:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3754 text9 CODE >115:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3756 text9 CODE >116:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3766 text9 CODE >118:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3768 text9 CODE >97:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3768 text9 CODE >119:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3778 text9 CODE >122:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+378E text9 CODE >123:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3794 text9 CODE >128:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+379E text9 CODE >129:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37AC text9 CODE >130:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37AE text9 CODE >131:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37AE text9 CODE >132:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37B8 text9 CODE >133:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37BE text9 CODE >127:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37CC text9 CODE >139:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37D0 text9 CODE >140:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+37DE text9 CODE >141:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+380C text9 CODE >142:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3810 text9 CODE >143:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3814 text9 CODE >144:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3814 text9 CODE >145:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3826 text9 CODE >149:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3826 text9 CODE >150:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3836 text9 CODE >151:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3842 text9 CODE >152:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3850 text9 CODE >153:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+387A text9 CODE >154:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+387E text9 CODE >159:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3898 text9 CODE >160:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+389E text9 CODE >161:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38AE text9 CODE >165:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38C8 text9 CODE >166:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38D0 text9 CODE >167:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38E0 text9 CODE >169:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38E4 text9 CODE >173:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38E8 text9 CODE >175:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38F6 text9 CODE >176:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38F8 text9 CODE >177:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38FC text9 CODE >180:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+38FE text9 CODE >182:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3908 text9 CODE >185:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcdiv.c
+3146 text8 CODE >8:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3146 text8 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+314C text8 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3152 text8 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3160 text8 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3162 text8 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3172 text8 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3182 text8 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3192 text8 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3194 text8 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3198 text8 CODE >36:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31A8 text8 CODE >39:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31AE text8 CODE >40:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31B4 text8 CODE >41:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31C2 text8 CODE >42:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31C4 text8 CODE >45:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31D4 text8 CODE >48:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31E4 text8 CODE >50:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31F4 text8 CODE >53:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31F6 text8 CODE >54:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+31FA text8 CODE >57:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+320A text8 CODE >58:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+320A text8 CODE >65:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+322A text8 CODE >66:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+323E text8 CODE >95:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+324A text8 CODE >96:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3254 text8 CODE >97:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+325E text8 CODE >98:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+326A text8 CODE >99:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3276 text8 CODE >100:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3282 text8 CODE >101:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+328E text8 CODE >102:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+329A text8 CODE >103:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32A6 text8 CODE >104:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32B4 text8 CODE >105:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32C0 text8 CODE >106:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32D0 text8 CODE >107:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32DC text8 CODE >108:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32EC text8 CODE >109:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+32FA text8 CODE >110:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3306 text8 CODE >111:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3316 text8 CODE >112:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3322 text8 CODE >113:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3332 text8 CODE >114:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+333E text8 CODE >115:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+334E text8 CODE >116:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+335A text8 CODE >117:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3384 text8 CODE >145:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+33BA text8 CODE >146:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+33C8 text8 CODE >149:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+33E2 text8 CODE >152:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+33E6 text8 CODE >153:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+33F0 text8 CODE >154:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+33FE text8 CODE >155:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3400 text8 CODE >156:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3400 text8 CODE >157:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+340A text8 CODE >158:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3410 text8 CODE >152:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+341E text8 CODE >163:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3422 text8 CODE >164:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3430 text8 CODE >165:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+345E text8 CODE >166:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3462 text8 CODE >167:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3466 text8 CODE >168:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3466 text8 CODE >169:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3478 text8 CODE >173:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3478 text8 CODE >174:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3488 text8 CODE >175:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3494 text8 CODE >176:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+34A2 text8 CODE >177:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+34CC text8 CODE >178:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+34D0 text8 CODE >183:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+34EA text8 CODE >184:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+34FA text8 CODE >185:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+34FE text8 CODE >187:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3518 text8 CODE >188:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3528 text8 CODE >190:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+352C text8 CODE >191:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3530 text8 CODE >192:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3530 text8 CODE >194:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3534 text8 CODE >195:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3544 text8 CODE >196:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3552 text8 CODE >197:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3554 text8 CODE >199:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+355A text8 CODE >201:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+355E text8 CODE >203:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+356E text8 CODE >205:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\sprcmul.c
+3C46 text7 CODE >43:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3C46 text7 CODE >47:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3C5C text7 CODE >48:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3C70 text7 CODE >49:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3C9A text7 CODE >50:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3C9C text7 CODE >51:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3CAC text7 CODE >52:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3CB0 text7 CODE >53:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3CBE text7 CODE >54:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3CD6 text7 CODE >57:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3CEA text7 CODE >60:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3CFE text7 CODE >63:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3D08 text7 CODE >64:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3D0A text7 CODE >62:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3D1A text7 CODE >67:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3D2A text7 CODE >68:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3D3A text7 CODE >69:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+3D4A text7 CODE >70:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\fltol.c
+390A text6 CODE >10:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+390C text6 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+392A text6 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+395C text6 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3960 text6 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3960 text6 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3970 text6 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3986 text6 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+399A text6 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+399E text6 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39A2 text6 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39A4 text6 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39AE text6 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39E0 text6 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39E2 text6 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39EE text6 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39F8 text6 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+39F8 text6 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A2A text6 CODE >34:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A2C text6 CODE >35:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A36 text6 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A54 text6 CODE >37:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A62 text6 CODE >38:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A64 text6 CODE >39:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A68 text6 CODE >40:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3A8C text6 CODE >41:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3AAA text6 CODE >42:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3AAC text6 CODE >43:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+3ABC text6 CODE >44:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\xxtofl.c
+4026 text5 CODE >19:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4026 text5 CODE >21:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+402C text5 CODE >22:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4030 text5 CODE >23:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4034 text5 CODE >25:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4038 text5 CODE >26:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+403E text5 CODE >27:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4040 text5 CODE >28:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4044 text5 CODE >29:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4048 text5 CODE >31:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+404A text5 CODE >32:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+404C text5 CODE >33:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+404E text5 CODE >34:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4050 text5 CODE >35:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4054 text5 CODE >36:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4058 text5 CODE >38:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+405A text5 CODE >39:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+405C text5 CODE >40:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+405E text5 CODE >41:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4060 text5 CODE >43:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4066 text5 CODE >44:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+406A text5 CODE >46:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+406E text5 CODE >47:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4072 text5 CODE >48:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4076 text5 CODE >50:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4078 text5 CODE >51:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+407A text5 CODE >52:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+407C text5 CODE >53:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+407E text5 CODE >54:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4080 text5 CODE >55:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4082 text5 CODE >56:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4084 text5 CODE >57:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4086 text5 CODE >59:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+408E text5 CODE >60:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4090 text5 CODE >63:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4094 text5 CODE >64:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4096 text5 CODE >66:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3D4C text4 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D4C text4 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D50 text4 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D5E text4 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D66 text4 CODE >16:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D6A text4 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D78 text4 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D80 text4 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D84 text4 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D8C text4 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3D9E text4 CODE >24:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DA2 text4 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DA6 text4 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DAC text4 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DAE text4 CODE >25:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DBC text4 CODE >30:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DC2 text4 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DD8 text4 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DE0 text4 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DE2 text4 CODE >35:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DE8 text4 CODE >36:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DEE text4 CODE >38:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3DFE text4 CODE >39:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3E06 text4 CODE >40:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3E0E text4 CODE >41:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awdiv.c
+3E10 text3 CODE >7:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E10 text3 CODE >12:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E14 text3 CODE >13:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E22 text3 CODE >14:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E2A text3 CODE >15:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E2E text3 CODE >17:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E3C text3 CODE >18:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E44 text3 CODE >19:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E56 text3 CODE >20:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E5A text3 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E5E text3 CODE >22:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E64 text3 CODE >23:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E66 text3 CODE >21:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E74 text3 CODE >26:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E8A text3 CODE >27:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E92 text3 CODE >28:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E98 text3 CODE >29:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3E9E text3 CODE >31:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3EAE text3 CODE >32:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3EB6 text3 CODE >33:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+3EBE text3 CODE >34:C:\Program Files\Microchip\xc8\v2.45\pic\sources\c99\common\awmod.c
+41D6 text2 CODE >69:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+41D8 text2 CODE >70:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+41F0 text2 CODE >71:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+421A text2 CODE >72:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4230 text2 CODE >73:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4404 text1 CODE >75:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4404 text1 CODE >76:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4408 text1 CODE >77:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4416 text1 CODE >78:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+4428 text1 CODE >79:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2532 text0 CODE >109:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2532 text0 CODE >110:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2536 text0 CODE >111:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+253A text0 CODE >112:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+253C text0 CODE >113:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2554 text0 CODE >114:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2556 text0 CODE >115:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2560 text0 CODE >116:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2568 text0 CODE >117:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+256E text0 CODE >119:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+257A text0 CODE >120:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2584 text0 CODE >121:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2594 text0 CODE >122:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+259E text0 CODE >123:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25A4 text0 CODE >124:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25AC text0 CODE >125:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25B4 text0 CODE >126:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25BA text0 CODE >127:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25C0 text0 CODE >128:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25C8 text0 CODE >129:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25D0 text0 CODE >130:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25D6 text0 CODE >131:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25DE text0 CODE >132:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25E6 text0 CODE >133:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25EE text0 CODE >137:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+25FA text0 CODE >138:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2600 text0 CODE >139:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+260A text0 CODE >140:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2610 text0 CODE >141:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2624 text0 CODE >143:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2628 text0 CODE >146:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+262C text0 CODE >149:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+263E text0 CODE >150:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2642 text0 CODE >151:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2646 text0 CODE >152:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+264C text0 CODE >157:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+265E text0 CODE >158:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2662 text0 CODE >159:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2666 text0 CODE >160:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+266C text0 CODE >164:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2670 text0 CODE >165:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2670 text0 CODE >167:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2680 text0 CODE >168:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2684 text0 CODE >169:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2688 text0 CODE >170:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+268E text0 CODE >175:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+269E text0 CODE >176:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26A2 text0 CODE >177:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26A6 text0 CODE >178:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26AC text0 CODE >182:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26B0 text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26BE text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26CC text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26D4 text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26DC text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26E4 text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26EC text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26F4 text0 CODE >184:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+26FE text0 CODE >188:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2710 text0 CODE >189:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2716 text0 CODE >191:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2752 text0 CODE >192:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+276A text0 CODE >194:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+276C text0 CODE >195:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2784 text0 CODE >196:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2786 text0 CODE >201:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+27A8 text0 CODE >202:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+27AA text0 CODE >203:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+27BA text0 CODE >204:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+27BC text0 CODE >205:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+27CA text0 CODE >206:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+27E4 text0 CODE >207:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2806 text0 CODE >208:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2808 text0 CODE >209:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2818 text0 CODE >210:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+281A text0 CODE >211:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+282A text0 CODE >213:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2844 text0 CODE >218:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2882 text0 CODE >219:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+289A text0 CODE >221:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+289C text0 CODE >222:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28B4 text0 CODE >223:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28B6 text0 CODE >227:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28D8 text0 CODE >228:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28DA text0 CODE >229:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28EA text0 CODE >230:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28EC text0 CODE >231:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+28FA text0 CODE >232:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2914 text0 CODE >233:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2936 text0 CODE >234:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2938 text0 CODE >235:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2948 text0 CODE >236:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+294A text0 CODE >237:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+295A text0 CODE >238:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2974 text0 CODE >243:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+29B2 text0 CODE >244:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+29CA text0 CODE >246:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+29CC text0 CODE >247:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+29E4 text0 CODE >248:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+29E6 text0 CODE >252:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A08 text0 CODE >253:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A0A text0 CODE >254:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A1A text0 CODE >255:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A1C text0 CODE >256:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A2A text0 CODE >257:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A44 text0 CODE >258:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A66 text0 CODE >259:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A68 text0 CODE >260:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A78 text0 CODE >261:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A7A text0 CODE >262:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2A8A text0 CODE >264:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2AA4 text0 CODE >267:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2AA4 text0 CODE >270:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2AD0 text0 CODE >271:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2AE8 text0 CODE >273:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2AE8 text0 CODE >275:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B10 text0 CODE >276:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B22 text0 CODE >278:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B2E text0 CODE >279:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B34 text0 CODE >280:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B46 text0 CODE >281:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B50 text0 CODE >286:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B6A text0 CODE >288:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B74 text0 CODE >289:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B80 text0 CODE >291:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2B9A text0 CODE >293:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2BA4 text0 CODE >294:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2BB0 text0 CODE >296:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2BCA text0 CODE >298:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2BD4 text0 CODE >299:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2BE0 text0 CODE >301:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2BFA text0 CODE >303:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C04 text0 CODE >304:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C10 text0 CODE >306:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C14 text0 CODE >308:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C1E text0 CODE >310:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C2A text0 CODE >317:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C2E text0 CODE >318:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C32 text0 CODE >320:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C36 text0 CODE >321:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C3A text0 CODE >323:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C3E text0 CODE >324:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C42 text0 CODE >326:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C46 text0 CODE >327:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C4A text0 CODE >329:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C4E text0 CODE >330:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C52 text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C5C text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C6A text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C72 text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C7A text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C82 text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C8A text0 CODE >332:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C94 text0 CODE >336:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2C98 text0 CODE >337:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D0A text0 CODE >338:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D14 text0 CODE >339:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D1A text0 CODE >340:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D22 text0 CODE >341:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D2A text0 CODE >345:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D2E text0 CODE >347:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2D32 text0 CODE >348:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DA4 text0 CODE >349:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DAE text0 CODE >350:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DB4 text0 CODE >351:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DBC text0 CODE >352:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DC4 text0 CODE >353:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DC8 text0 CODE >356:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DD2 text0 CODE >357:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DD8 text0 CODE >358:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DE0 text0 CODE >359:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DE8 text0 CODE >360:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DEE text0 CODE >361:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DF4 text0 CODE >362:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2DFC text0 CODE >363:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E04 text0 CODE >365:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E08 text0 CODE >367:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E0C text0 CODE >368:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E10 text0 CODE >369:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E14 text0 CODE >370:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E18 text0 CODE >373:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E1C text0 CODE >374:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E90 text0 CODE >375:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2E9A text0 CODE >376:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2EA2 text0 CODE >377:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2EAA text0 CODE >378:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2EB2 text0 CODE >379:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2EB6 text0 CODE >381:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2EBA text0 CODE >382:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F2E text0 CODE >383:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F38 text0 CODE >384:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F40 text0 CODE >385:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F48 text0 CODE >386:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F50 text0 CODE >387:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F54 text0 CODE >389:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F58 text0 CODE >390:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F5C text0 CODE >391:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F60 text0 CODE >392:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F64 text0 CODE >394:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2F68 text0 CODE >395:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2FDC text0 CODE >396:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2FE6 text0 CODE >397:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2FEE text0 CODE >398:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2FF6 text0 CODE >399:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+2FFE text0 CODE >400:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3002 text0 CODE >402:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3006 text0 CODE >403:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+307A text0 CODE >404:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3084 text0 CODE >405:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+308C text0 CODE >406:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3094 text0 CODE >407:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+309C text0 CODE >408:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30A0 text0 CODE >410:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30A4 text0 CODE >411:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30A8 text0 CODE >412:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30AC text0 CODE >413:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30B0 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30BC text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30CA text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30D2 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30DA text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30E2 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30EA text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30F2 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+30FA text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3102 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+310A text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3112 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+311A text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+3122 text0 CODE >414:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+312C text0 CODE >273:C:\Users\RREYM\MPLABXProjects\TF_MICRO_COMEDERO.X\Maincode.c
+410A cinit CODE >5591:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+410A cinit CODE >5593:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+410A cinit CODE >5596:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+410A cinit CODE >5766:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+410C cinit CODE >5767:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+410E cinit CODE >5768:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4110 cinit CODE >5769:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4112 cinit CODE >5770:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4114 cinit CODE >5771:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4116 cinit CODE >5772:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+411A cinit CODE >5773:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+411E cinit CODE >5774:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+411E cinit CODE >5775:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4120 cinit CODE >5776:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4124 cinit CODE >5777:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4126 cinit CODE >5778:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4128 cinit CODE >5779:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+412A cinit CODE >5783:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+412C cinit CODE >5784:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+412E cinit CODE >5785:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4130 cinit CODE >5786:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4132 cinit CODE >5787:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4134 cinit CODE >5788:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4136 cinit CODE >5789:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+413A cinit CODE >5790:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+413E cinit CODE >5791:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+413E cinit CODE >5792:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4140 cinit CODE >5793:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4144 cinit CODE >5794:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4146 cinit CODE >5795:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4148 cinit CODE >5796:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+414A cinit CODE >5800:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+414E cinit CODE >5801:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4150 cinit CODE >5802:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4150 cinit CODE >5803:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4152 cinit CODE >5804:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4154 cinit CODE >5805:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4156 cinit CODE >5808:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4158 cinit CODE >5809:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+415A cinit CODE >5810:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+415C cinit CODE >5811:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+415E cinit CODE >5819:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4160 cinit CODE >5820:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4162 cinit CODE >5821:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4164 cinit CODE >5822:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4166 cinit CODE >5823:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+4168 cinit CODE >5824:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+416A cinit CODE >5825:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+416C cinit CODE >5831:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+416C cinit CODE >5833:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+416E cinit CODE >5834:C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___awdiv@counter 50B 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwmod@counter 505 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hspace_0 44BC 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hspace_1 579 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hspace_4 60000A 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+U1_INIT@baudios 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1_DATA_RECIEVE 44B2 0 CODE 0 text11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ENVIA_CHAR@aux 503 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+_ENVIA_LCD_CMD 4340 0 CODE 0 text18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_sw 573 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LCD_ESCRIBE_VAR_INT 3ABE 0 CODE 0 text19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LCD_CONFIG 4232 0 CODE 0 text14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+main@f 54E 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+main@x 552 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lsmallconst 2500 0 SMALLCONST 0 smallconst dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LATD 4C1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_WPUB 409 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+_main 2532 0 CODE 0 text0 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_mode 560 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ENVIA_NIBBLE@dato 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___stack_hi 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___stack_lo 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__end_of_ENVIA_CHAR 43A8 0 CODE 0 text24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+start 102 0 CODE 0 init C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___flmul@aexp 520 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@bexp 521 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@prod 522 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@sign 51B 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@temp 526 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+convierte@numero 50F 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@decena 515 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LCD_INIT 42CA 0 CODE 0 text13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awmod@sign 506 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__accesstop 560 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__end_of_LCD_INIT 4308 0 CODE 0 text13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+intlevel0 0 0 CODE 0 text C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_DEFAULT_ISR 4498 0 CODE 0 text30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@millar 513 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awdiv@sign 50C 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_decena2 576 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@n_digitos 50F 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_configuro 4098 0 CODE 0 text5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pidataCOMRAM 44B8 0 CODE 0 idataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@numero 50D 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_LCD_CONFIG 4286 0 CODE 0 text14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1RXPPS 272 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1_INIT 43D8 0 CODE 0 text10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ADRESH 3EB 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ADRESL 3EA 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ANSELA 400 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ANSELB 408 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ANSELC 410 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ANSELD 418 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_CURSOR_HOME 44A2 0 CODE 0 text16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awdiv@dividend 507 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_CCPR1H 341 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_CCPR1L 340 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_configuro 4026 0 CODE 0 text5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_centesimas2 569 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_centesimas3 565 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_centesimas4 561 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@unidad 516 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@aexp 540 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@bexp 53F 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@sign 538 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_LCD_ESCRIBE_VAR_INT 3C46 0 CODE 0 text19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awdiv@divisor 509 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwmod@divisor 503 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___awdiv 3E10 0 CODE 0 text4 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___awmod 3EC0 0 CODE 0 text3 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___fldiv 390A 0 CODE 0 text9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___flmul 3570 0 CODE 0 text8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___fltol 3D4C 0 CODE 0 text7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___lwdiv 4026 0 CODE 0 text21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___lwmod 41D6 0 CODE 0 text20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?_strlen 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_centesimas 56B 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwdiv@quotient 50A 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@a 52C 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@b 528 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@a 513 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@b 50F 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+main@comando 551 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_INTCON0bits 4D6 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_ENVIA_LCD_CMD 4374 0 CODE 0 text18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwmod@dividend 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+start_initialization 410A 0 CODE 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_segundos2 56A 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_segundos3 566 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_segundos4 562 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_convierte 4232 0 CODE 0 text2 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ESCRIBE_MENSAJE2 4286 0 CODE 0 text22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_OSCFRQ B1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_TRISEbits 4CA 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_TRISFbits 4CB 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_BORRAR_LCD 44AA 0 CODE 0 text17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_RF0PPS 229 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1BRGH 2AF 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1BRGL 2AE 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1CON0 2AB 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1CON1 2AC 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1CON2 2AD 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_unidad2 575 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_minutos2 55C 0 COMRAM 1 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_minutos3 567 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_minutos4 563 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_convierte 41D6 0 CODE 0 text2 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LEER_LCD@aux 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@centena 514 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank8 0 0 ABS 0 bank8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank9 0 0 ABS 0 bank9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_strlen 4340 0 CODE 0 text23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hidloc 0 0 ABS 0 idloc dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwdiv@counter 50C 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank10 0 0 ABS 0 bank10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank11 0 0 ABS 0 bank11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank12 0 0 ABS 0 bank12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank13 0 0 ABS 0 bank13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank14 0 0 ABS 0 bank14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank15 0 0 ABS 0 bank15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank16 0 0 ABS 0 bank16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank17 0 0 ABS 0 bank17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank18 0 0 ABS 0 bank18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank19 0 0 ABS 0 bank19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank20 0 0 ABS 0 bank20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank21 0 0 ABS 0 bank21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank22 0 0 ABS 0 bank22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank23 0 0 ABS 0 bank23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank24 0 0 ABS 0 bank24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank25 0 0 ABS 0 bank25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank26 0 0 ABS 0 bank26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank27 0 0 ABS 0 bank27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank28 0 0 ABS 0 bank28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank29 0 0 ABS 0 bank29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank30 0 0 ABS 0 bank30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank31 0 0 ABS 0 bank31 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank32 0 0 ABS 0 bank32 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank33 0 0 ABS 0 bank33 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank34 0 0 ABS 0 bank34 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank35 0 0 ABS 0 bank35 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbank36 0 0 ABS 0 bank36 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_POS_CURSOR 3EC0 0 CODE 0 text12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__smallconst 2500 0 SMALLCONST 0 smallconst C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___xxtofl@arg 50B 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___xxtofl@exp 50A 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___xxtofl@val 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hconfig 30000A 0 CONFIG 4 config dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank8 0 0 ABS 0 bank8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank9 0 0 ABS 0 bank9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lidloc 0 0 ABS 0 idloc dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul@grs 51C 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PORTBbits 4CF 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PORTCbits 4D0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hinit 106 0 CODE 0 init dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Linit 102 0 CODE 0 init dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_BORRAR_LCD 44B2 0 CODE 0 text17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+POS_CURSOR@fila 505 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_CURSOR_ONOFF 43A8 0 CODE 0 text15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__S0 44BC 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__S1 579 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_sw2 571 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_sw3 572 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_sw4 570 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hivt0x8 102 0 CODE 0 ivt0x8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+IVTBASEH 45E 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+IVTBASEL 45D 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+IVTBASEU 45F 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_ESCRIBE_MENSAJE2 42CA 0 CODE 0 text22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pivt0x8 8 0 CODE 0 ivt0x8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_decena 55B 0 COMRAM 1 bssCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_DEFAULT_ISR 44A2 0 CODE 0 text30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___xxtofl 390A 0 CODE 0 text6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_POS_CURSOR 3F3A 0 CODE 0 text12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_horas2 55D 0 COMRAM 1 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_horas3 568 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_horas4 564 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hramtop 2500 0 RAM 0 ramtop dist/default/production\TF_MICRO_COMEDERO.X.production.o
+strlen@a 503 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+strlen@s 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ENVIA_NIBBLE 446C 0 CODE 0 text26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of___xxtofl 3ABE 0 CODE 0 text6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_comando_anterior 56F 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pdataBANK5 560 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__activetblptr 3 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_lectura 558 0 COMRAM 1 bssCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awmod@counter 505 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_CURSOR_HOME 44AA 0 CODE 0 text16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIE1bits 49F 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIE3bits 4A1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIE6bits 4A4 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIR10bits 4B8 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext10 43D8 0 CODE 0 text10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext11 44B2 0 CODE 0 text11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext12 3EC0 0 CODE 0 text12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext13 42CA 0 CODE 0 text13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext14 4232 0 CODE 0 text14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext15 43A8 0 CODE 0 text15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext16 44A2 0 CODE 0 text16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext17 44AA 0 CODE 0 text17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext18 4340 0 CODE 0 text18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext19 3ABE 0 CODE 0 text19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext20 4172 0 CODE 0 text20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext21 3FB2 0 CODE 0 text21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext22 4286 0 CODE 0 text22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext23 4308 0 CODE 0 text23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext24 4374 0 CODE 0 text24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext25 4098 0 CODE 0 text25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext26 446C 0 CODE 0 text26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext27 3F3C 0 CODE 0 text27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext28 442C 0 CODE 0 text28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext29 444C 0 CODE 0 text29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext30 4498 0 CODE 0 text30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awdiv 3D4C 0 CODE 0 text4 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awmod 3E10 0 CODE 0 text3 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv 3570 0 CODE 0 text9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___flmul 3146 0 CODE 0 text8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fltol 3C46 0 CODE 0 text7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwdiv 3FB2 0 CODE 0 text21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwmod 4172 0 CODE 0 text20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank10 0 0 ABS 0 bank10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank11 0 0 ABS 0 bank11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank12 0 0 ABS 0 bank12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank13 0 0 ABS 0 bank13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank14 0 0 ABS 0 bank14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank15 0 0 ABS 0 bank15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank16 0 0 ABS 0 bank16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank17 0 0 ABS 0 bank17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank18 0 0 ABS 0 bank18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank19 0 0 ABS 0 bank19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank20 0 0 ABS 0 bank20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank21 0 0 ABS 0 bank21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank22 0 0 ABS 0 bank22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank23 0 0 ABS 0 bank23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank24 0 0 ABS 0 bank24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank25 0 0 ABS 0 bank25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank26 0 0 ABS 0 bank26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank27 0 0 ABS 0 bank27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank28 0 0 ABS 0 bank28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank29 0 0 ABS 0 bank29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank30 0 0 ABS 0 bank30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank31 0 0 ABS 0 bank31 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank32 0 0 ABS 0 bank32 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank33 0 0 ABS 0 bank33 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank34 0 0 ABS 0 bank34 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank35 0 0 ABS 0 bank35 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbank36 0 0 ABS 0 bank36 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ivt0x8_undefint 100 0 CODE 0 ivt0x8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LATDbits 4C1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LATEbits 4C2 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@grs 53B 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@rem 534 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_CURSOR_ONOFF 43D8 0 CODE 0 text15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_segundos 56C 0 BANK5 1 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+main@f_798 54F 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+main@f_800 550 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwdiv@divisor 508 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_strlen 4308 0 CODE 0 text23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+main@x_799 554 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+main@x_801 556 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fldiv@new_exp 539 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_unidad 55A 0 COMRAM 1 bssCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+stackhi 0 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+stacklo 0 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+_OSCCON1 AD 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Livt0x8 8 0 CODE 0 ivt0x8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ADCON0bits 3F3 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIE10bits 4A8 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pbssCOMRAM 558 0 COMRAM 1 bssCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_LEER_LCD 4098 0 CODE 0 text25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIR1bits 4AF 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIR3bits 4B1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PIR6bits 4B4 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fltol@exp1 54A 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_ENVIA_NIBBLE 4488 0 CODE 0 text26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+end_of_initialization 416C 0 CODE 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_LEER_LCD 410A 0 CODE 0 text25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_debounce_count 56D 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ESCRIBE_MENSAJE2@cadena 504 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awdiv@quotient 50D 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___awdiv 507 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___awmod 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___lwdiv@dividend 506 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___fldiv 528 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___flmul 50F 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___fltol 541 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___lwdiv 506 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___lwmod 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awmod@dividend 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lramtop 2500 0 RAM 0 ramtop dist/default/production\TF_MICRO_COMEDERO.X.production.o
+LCD_ESCRIBE_VAR_INT@d_millar 512 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pcinit 410A 0 CODE 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext0 2532 0 CODE 0 text0 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext1 4404 0 CODE 0 text1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext2 41D6 0 CODE 0 text2 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext3 3E10 0 CODE 0 text3 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext4 3D4C 0 CODE 0 text4 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext5 4026 0 CODE 0 text5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext6 390A 0 CODE 0 text6 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext7 3C46 0 CODE 0 text7 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext8 3146 0 CODE 0 text8 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ptext9 3570 0 CODE 0 text9 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_INT0_ISR 442C 0 CODE 0 text28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_INT1_ISR 444C 0 CODE 0 text29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__ramtop 2500 0 RAM 0 ramtop C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?___xxtofl 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ENVIA_LCD_CMD@dato 502 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_INT0_ISR 444C 0 CODE 0 text28 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_INT1_ISR 446C 0 CODE 0 text29 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___fltol@sign1 549 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__psmallconst 2500 0 SMALLCONST 0 smallconst dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\TF_MICRO_COMEDERO.X.production.o
+?_tomamuestra_ADC 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_U1_INIT 4404 0 CODE 0 text10 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___fltol@f1 541 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\RREYM\AppData\Local\Temp\xcAs1e1c.\driver_tmp_9.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of__initialization 416C 0 CODE 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_tomamuestra_ADC 442A 0 CODE 0 text1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___awmod@divisor 503 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+POS_CURSOR@columna 504 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pidataBANK5 4488 0 CODE 0 idataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ESCRIBE_MENSAJE2@i 507 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_centena 578 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pcstackCOMRAM 501 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ENVIA_CHAR@dato 502 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_CCP1_ISR 3F3C 0 CODE 0 text27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_main 3146 0 CODE 0 text0 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_U1_DATA_RECIEVE 44B8 0 CODE 0 text11 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ESCRIBE_MENSAJE2@tam 506 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+main@comando_810 54D 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ADPCH 3EC 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_OSCEN B3 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_PORTD 4D1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_T1CLK 321 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_T1CON 31E 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_TRISA 4C6 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_TRISB 4C7 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_TRISC 4C8 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_TRISD 4C9 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1RXB 2A1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1TXB 2A3 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_minutos 55E 0 COMRAM 1 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__end_of_CCP1_ISR 3FB2 0 CODE 0 text27 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_horas 55F 0 COMRAM 1 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ENVIA_CHAR 4374 0 CODE 0 text24 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_selec 574 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_CCP1CON 342 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__HdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_centena2 577 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__initialization 410A 0 CODE 0 cinit dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_tomamuestra_ADC 4404 0 CODE 0 text1 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+___xxtofl@sign 509 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pbssBANK5 56D 0 BANK5 1 bssBANK5 dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__pdataCOMRAM 55C 0 COMRAM 1 dataCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+ENVIA_LCD_CMD@aux 503 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hsmallconst 2532 0 SMALLCONST 0 smallconst dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_U1ERRIRbits 2B2 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ANSELEbits 420 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+_ANSELFbits 428 0 ABS 0 - dist/default/production\TF_MICRO_COMEDERO.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\TF_MICRO_COMEDERO.X.production.o
+CURSOR_ONOFF@estado 504 0 COMRAM 1 cstackCOMRAM dist/default/production\TF_MICRO_COMEDERO.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+ivt0x8 0 8 8 FE 1
+text0 0 2532 2532 1A08 1
+text27 0 3F3C 3F3C 4EE 1
+text28 0 442C 442C 69 1
+text30 0 4498 4498 24 1
+cstackCOMRAM 1 501 501 5F 1
+reset_vec 0 0 0 4 1
+smallconst 0 2500 2500 32 1
+dataBANK5 1 560 560 19 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
